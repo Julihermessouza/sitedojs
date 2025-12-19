@@ -1,0 +1,57 @@
+/* Background styling */
+body {
+    background-color: #f5f5f5;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+header nav a {
+    color: #667eea;
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #764ba2;
+}
+
+.buttoncima {
+    
+    width: auto;  /* isto é largura  */ 
+    height: auto; /* isto é altura */ 
+    border: 5px solid rgb(49, 206, 206);  /* isto é oque define a borda e sua largura precisa ser maior que 0 para aparecer */  
+    border-radius: 5px;  /* isto é oque deixa a borda arredondada ou curvada quanto mais pixel mais curvas ela tera */  
+    background-color: #fff; /* isto é a cor de fundo do botao ou da DIV respectivamente */
+    display: flex; /* isto define que é um container flexivel */
+    align-items: center; /* isto alinha o conteudo no centro verticalmente */
+    justify-content: center; /* isto alinha o conteudo no centro horizontalmente */
+}
+
+.buttoncima a {
+    text-decoration: none; /* isto remove o sublinhado do link */
+    color: rgb(0, 0, 0); /* isto define a cor do texto do link */
+    font-weight: bold; /* isto deixa o texto em negrito */
+    font-size: 1rem; /* isto define o tamanho da fonte do texto */
+}
+
+
